@@ -16,4 +16,4 @@ def search(nums, target):
     return -1
 
 
-print(search(a, 41))
+print(search(array, 41))
