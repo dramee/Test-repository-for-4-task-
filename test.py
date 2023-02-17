@@ -17,3 +17,4 @@ def search(nums, target):
 
 
 print(search(array, 41))
+print(search(array, 31) == -1)
