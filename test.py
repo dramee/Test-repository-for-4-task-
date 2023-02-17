@@ -3,7 +3,7 @@ array = [12, 32, 35, 41, 52, 67, 90, 112, 131, 315, 123]
 
 def search(nums, target):
     left = 0
-    right = len(nums) - 1
+    right = len(nums)
 
     while left <= right:
         curr_ind = (left + right) // 2
